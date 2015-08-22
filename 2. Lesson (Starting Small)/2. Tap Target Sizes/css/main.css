@@ -1,0 +1,6 @@
+/*Buttons should be big enough, to make life easier */
+nav a,
+button {
+	width: 48px;
+	height: 48px;
+}
