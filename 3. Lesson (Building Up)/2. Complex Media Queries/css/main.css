@@ -1,0 +1,15 @@
+.yes {
+	opacity: 0;
+}
+.no {
+	opacity: 1;
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+	.yes {
+		opacity: 1;
+	}
+	.no {
+		opacity: 0;
+	}
+}
