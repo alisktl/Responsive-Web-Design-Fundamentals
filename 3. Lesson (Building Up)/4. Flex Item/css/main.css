@@ -1,0 +1,38 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+}
+
+.dark_blue {
+	background-color: #00f;
+}
+
+.light_blue {
+	background-color: #008;
+}
+
+.green {
+	background-color: #0f0;
+}
+
+.orange {
+	background-color: #ffa500;
+}
+
+.red {
+	background-color: #f00;
+}
+
+@media screen and (min-width:700px) {
+	.dark_blue {order: 4;}
+	.light_blue {order: 5;}
+	.green {order: 2;}
+	.orange {order: 3;}
+	.red {order: 1;}
+}

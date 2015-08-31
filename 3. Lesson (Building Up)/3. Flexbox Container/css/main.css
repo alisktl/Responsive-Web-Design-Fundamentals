@@ -1,0 +1,22 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+}
+
+.dark_blue {
+	background-color: #00f;
+}
+
+.light_blue {
+	background-color: #008;
+}
+
+.green {
+	background-color: #0f0;
+}
