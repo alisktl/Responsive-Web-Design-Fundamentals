@@ -1,0 +1,8 @@
+table {
+    border: 1px solid #ddd;
+}
+
+div.contained_scrolling {
+	width: 100%;
+	overflow-x: auto;
+}
